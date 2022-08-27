@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import quotes from './quotes.json'
+import Icon from './Icon'
 
 
 
@@ -24,16 +25,15 @@ function QuoteBox() {
         setIndex(Math.floor(Math.random() * quotes.length));
         }
       
-  
     return (
       <div className="quoteBox">
         <div className="card">
-          <h1>
-            <i class="fa-solid fa-quote-left"></i>
-          </h1>
+          <Icon />
           <p className="quote">{quotes[index].quote}</p>
           <p className="author">- {quotes[index].author}</p>
         </div>
+        <button className="switch" onClick={switchIndex}><i class="fa-solid fa-shuffle"></i></button>
+
       </div>
     )
   }
