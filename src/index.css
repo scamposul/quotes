@@ -1,0 +1,43 @@
+:root {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: #242424;
+  
+  height: max-content;
+
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  background: #242424;
+  width: 50%;
+}
+
+.quote {
+  margin-top: 100px;
+  height: 20px;
+}
+
+.author {
+  margin-top: 150px;
+  font-size: 70%;
+}
+
+.switch {
+  padding: 1%;
+  border-radius: 50%;
+  background: #242424;
+}
