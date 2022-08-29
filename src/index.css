@@ -40,4 +40,5 @@ h1 {
   padding: 1%;
   border-radius: 50%;
   background: #242424;
+  cursor: pointer;
 }
